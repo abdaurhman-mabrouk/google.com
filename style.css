@@ -67,6 +67,9 @@ main div img {
   margin: 7px;
   border: 1px solid white;
 }
+main > div > p {
+  color: white;
+}
 
 div#centerContent img {
   margin: 7px;
@@ -77,5 +80,12 @@ footer {
   max-height: 110px;
   width: calc(100vw - 2px);
   height: 110px;
+  border: 1px solid white;
+}
+footer div.bottom {
+  margin-top: 20px;
+  border: 1px solid white;
+}
+footer div span {
   border: 1px solid white;
 }
