@@ -22,10 +22,31 @@ header {
   border: 1px solid white;
 }
 header ul {
-  margin: 7px;
+  width: fit-content;
+  height: fill;
+  margin: 5px;
   border: 1px solid white;
 }
 header ul a {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 5px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+img#userImage {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+img#products {
   border: 1px solid white;
 }
 main {
@@ -34,8 +55,12 @@ main {
   height: 565px;
   border: 1px solid white;
 }
-main div {
-  margin: 7px;
+main > div {
+  width: fit-content;
+  height: fit-content;
+  margin: 100px auto;
+  padding: 10px;
+  align-items: center;
   border: 1px solid white;
 }
 main div img {
@@ -49,8 +74,8 @@ div#centerContent img {
 }
 footer {
   max-width: calc(100vw - 2px);
-  max-height: 100px;
+  max-height: 110px;
   width: calc(100vw - 2px);
-  height: 90px;
+  height: 110px;
   border: 1px solid white;
 }
