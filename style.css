@@ -22,6 +22,7 @@ header {
   border: 1px solid white;
 }
 header ul {
+  margin: 7px;
   border: 1px solid white;
 }
 header ul a {
@@ -34,12 +35,16 @@ main {
   border: 1px solid white;
 }
 main div {
+  margin: 7px;
   border: 1px solid white;
 }
 main div img {
+  margin: 7px;
+  border: 1px solid white;
 }
 
 div#centerContent img {
+  margin: 7px;
   border: 1px solid white;
 }
 footer {
