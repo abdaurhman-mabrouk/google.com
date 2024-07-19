@@ -20,10 +20,9 @@ body {
 
 header {
   max-width: calc(100vw - 2px);
-  max-height: 60px;
+  max-height: 55px;
   width: calc(100vw - 2px);
   height: 60px;
-  border: 1px solid white;
 }
 
 header ul {
@@ -53,7 +52,6 @@ a {
 img#userImage {
   width: 30px;
   height: 30px;
-  border: 1px solid white;
   border-radius: 100%;
 }
 
@@ -76,7 +74,6 @@ main div#centerContent {
   height: fit-content;
   margin: 80px auto;
   padding: 5px;
-  border: 1px solid white;
 }
 
 img#googleLogoImage {
@@ -84,12 +81,12 @@ img#googleLogoImage {
   top: 0;
   left: 27%;
   margin: auto;
-  border: 1px solid white;
+  margin-bottom: 15px;
 }
 
 div.search-bar-div {
   width: 600px;
-  height: 42px;
+  height: 39px;
   padding: 0;
   padding-left: 5px;
   border: 1px solid white;
@@ -97,8 +94,8 @@ div.search-bar-div {
 }
 
 svg#searchSvgIcon {
+  margin-left: 5px;
   vertical-align: middle;
-  border: 1px solid white;
 }
 
 input#searchInput {
@@ -112,19 +109,17 @@ input#searchInput {
 
 svg#imageSearchIcon {
   vertical-align: middle;
-  border: 1px solid white;
+
 }
 
 svg#voiceSearchIcon {
   vertical-align: middle;
-  border: 1px solid white;
 }
 
 div#buttonsDiv {
   width: fit-content;
   height: fit-content;
   margin: 15px auto;
-  border: 1px solid white;
 }
 
 div#buttonsDiv button {
@@ -133,11 +128,15 @@ div#buttonsDiv button {
   font-size: 15px;
   color: white;
   background-color: #303134;
+  border: none;
   border-radius: 5px;
 }
 
 
-main>div>p {
+main div p {
+  position: relative;
+  margin-left: 37%;
+  margin-top: 50px;
   color: white;
 }
 
@@ -150,11 +149,24 @@ footer {
   border: 1px solid white;
 }
 
+footer div.top {
+  height: 52px;
+  border: 1px solid white;
+}
+
+footer div.top a {
+
+  font-size: 20px;
+  border: 1px solid white;
+}
+
 footer div.bottom {
-  margin-top: 20px;
+  height: 52px;
   border: 1px solid white;
 }
 
 footer div span {
+  height: 40px;
+  margin: 0 15px;
   border: 1px solid white;
 }
